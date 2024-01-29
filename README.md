@@ -1,8 +1,8 @@
 # Digit Classifier with CNNs on MNIST Dataset: Deployment and Feedback Loop
 
-This assignment submission includes a Streamlit web application for classifying handwritten digits using a pre-trained convolutional neural network (CNN) model on the MNIST dataset. The application allows users to upload images for classification, provide feedback, and trigger immediate fine-tuning. Additionally, a system-scheduled job runs periodically to fine-tune the model based on user feedback, and the dynamically updated model replaces the initial pre-trained model (`model.h5`).
+This repository includes a Streamlit web application for classifying handwritten digits using a pre-trained convolutional neural network (CNN) model on the MNIST dataset. The application allows users to upload images for classification, provide feedback, and trigger immediate fine-tuning. Additionally, a system-scheduled job runs periodically to fine-tune the model based on user feedback, and the dynamically updated model replaces the initial pre-trained model (`model.h5`).
 
-## Folder Contents:
+## Repository Contents:
 
 - **app.py**: The Streamlit web application code that includes image classification, user feedback, and options for immediate model fine-tuning.
 - **finetuning.py**: Module containing functions for scheduled fine-tuning of the pre-trained model based on user feedback.
